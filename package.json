@@ -1,0 +1,32 @@
+{
+  "name": "fin-lib-api",
+  "version": "0.0.1",
+  "description": "Finance library restful api.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanfrancy/fin-lib-api.git"
+  },
+  "keywords": [
+    "finance",
+    "tvm",
+    "time",
+    "value",
+    "money"
+  ],
+  "author": "Nathan Francy <nathanfrancy@gmail.com> (http://www.nathanfrancy.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanfrancy/fin-lib-api/issues"
+  },
+  "homepage": "https://github.com/nathanfrancy/fin-lib-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "fin-lib": "0.0.3"
+  }
+}
