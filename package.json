@@ -27,6 +27,6 @@
   "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
-    "fin-lib": "0.0.3"
+    "fin-lib": "0.0.4"
   }
 }

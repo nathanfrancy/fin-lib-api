@@ -18,7 +18,7 @@ app.get('/documentation.json', function(req, res) {
 
 app.get('/:id', function (req, res) {
     documentationHelper.getResult(req.params.id, req.query).then(function(result) {
-        res.send(result);
+        res.json(result);
     }).catch(function(err) {
         res.statusCode = 400;
         res.send(err.message);
