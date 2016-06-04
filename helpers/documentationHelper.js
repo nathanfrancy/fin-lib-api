@@ -45,11 +45,6 @@ var getResult = function(name, parameters) {
                 }
 
                 var result = null;
-
-                if (arguments.length === 1) {
-
-                }
-
                 switch (arguments.length) {
                     case 1:
                         result = fin[name](arguments[0]);
